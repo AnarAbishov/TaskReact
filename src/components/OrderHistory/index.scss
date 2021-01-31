@@ -1,0 +1,32 @@
+.order_history_content {
+    display: flex;
+    justify-content: center;
+
+    .order_history_header {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            margin-right: 50px;
+        }
+    }
+
+    .order_history {
+        display: flex;
+        justify-content: space-between;
+       .order_history_item{
+           border: 1px solid gray;
+           border-radius: 10px;
+           padding: 10px 20px;
+           height: 320px;
+           p{
+               margin-bottom: 10px !important;
+               color: rgba(114, 114, 128, 1);
+               span{
+                   color: black;
+                   margin-left: 15px;
+               }
+           }
+       }
+    }
+}
